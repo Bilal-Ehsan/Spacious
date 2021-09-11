@@ -47,12 +47,12 @@ body {
   list-style: none;
 }
 
-.nav__list .item {
+.nav__item {
   font-size: 2.25rem;
   font-weight: 300;
 }
 
-.nav__list a {
+.nav a {
   text-decoration: none;
   color: black;
 }
