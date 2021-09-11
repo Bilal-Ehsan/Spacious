@@ -1,6 +1,11 @@
 .header__title {
+  font-size: 4rem;
   flex: 0 0 40%;
   font-weight: 400;
+  background: linear-gradient(to top right, #c2e59c, #64b3f4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav {
@@ -20,5 +25,17 @@
       text-decoration: none;
       color: black;
     }
+  }
+}
+
+.hero-main {
+  &__content {
+    flex: 0 0 50%;
+    background-color: yellowgreen; // Temp
+  }
+
+  &__img {
+    flex: 0 0 50%;
+    background-color: orangered; // Temp
   }
 }
