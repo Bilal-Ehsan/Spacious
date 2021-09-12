@@ -50,6 +50,16 @@ body {
 .nav__item {
   font-size: 2.25rem;
   font-weight: 300;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.nav__item:hover {
+  color: grey;
+  -webkit-transform: translateY(-0.25rem);
+          transform: translateY(-0.25rem);
 }
 
 .nav a {
@@ -82,6 +92,13 @@ body {
   margin-top: 10rem;
   text-decoration: none;
   color: black;
+  margin-right: auto;
+  -webkit-transition: letter-spacing .2s;
+  transition: letter-spacing .2s;
+}
+
+.left__btn:hover {
+  letter-spacing: .15rem;
 }
 
 .right {
@@ -106,6 +123,16 @@ body {
 
 .footer__icon {
   margin: 0 1rem;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.footer__icon:hover {
+  -webkit-transform: translateY(-0.5rem) scale(115%);
+          transform: translateY(-0.5rem) scale(115%);
 }
 
 .header {

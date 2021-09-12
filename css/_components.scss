@@ -20,6 +20,12 @@
   &__item {
     font-size: 2.25rem;
     font-weight: 300;
+    transition: transform .2s;
+
+    &:hover {
+      color: grey;
+      transform: translateY(-.25rem);
+    }
   }
 
   & a {
@@ -33,7 +39,6 @@
   font-size: 4rem;
   font-weight: 400;
   padding: 5rem 7.5rem;
-  // background-color: yellowgreen; // Temp
 
   display: flex;
   flex-direction: column;
@@ -45,12 +50,17 @@
     margin-top: 10rem;
     text-decoration: none;
     color: black;
+    margin-right: auto;
+    transition: letter-spacing .2s;
+
+    &:hover {
+      letter-spacing: .15rem;
+    }
   }
 }
 
 .right {
   flex: 0 0 60%;
-  // background-color: orangered; // Temp
 
   display: flex;
   justify-content: center;
@@ -58,10 +68,16 @@
 
   &__img {
     width: 71.25rem;
-    height: 48rem;    
+    height: 48rem;   
   }
 }
 
 .footer__icon {
   margin: 0 1rem;
+  cursor: pointer;
+  transition: transform .3s;
+
+  &:hover {
+    transform: translateY(-.5rem) scale(115%);
+  }
 }
