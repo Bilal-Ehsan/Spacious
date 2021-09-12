@@ -104,6 +104,10 @@ body {
   height: 48rem;
 }
 
+.footer__icon {
+  margin: 0 1rem;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,9 +133,15 @@ body {
 
 .footer {
   height: 10vh;
+  border-top: 1px solid #d3d3d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-top: 1px solid #d3d3d3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
