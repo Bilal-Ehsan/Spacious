@@ -29,6 +29,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 .nav {
@@ -119,6 +120,9 @@ body {
 .right__img {
   width: 71.25rem;
   height: 48rem;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
+  cursor: pointer;
 }
 
 .footer__icon {
@@ -133,6 +137,22 @@ body {
 .footer__icon:hover {
   -webkit-transform: translateY(-0.5rem) scale(115%);
           transform: translateY(-0.5rem) scale(115%);
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2.5rem);
+            transform: translateY(2.5rem);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2.5rem);
+            transform: translateY(2.5rem);
+  }
 }
 
 .header {

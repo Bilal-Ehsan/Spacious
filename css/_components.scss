@@ -6,6 +6,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 .nav {
@@ -68,7 +69,9 @@
 
   &__img {
     width: 71.25rem;
-    height: 48rem;   
+    height: 48rem;
+    animation: fadeIn 2s;  
+    cursor: pointer; 
   }
 }
 
@@ -79,5 +82,12 @@
 
   &:hover {
     transform: translateY(-.5rem) scale(115%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(2.5rem);
   }
 }
