@@ -28,14 +28,30 @@
   }
 }
 
-.hero-main {
-  &__content {
-    flex: 0 0 50%;
-    background-color: yellowgreen; // Temp
-  }
+.left {
+  flex: 0 0 40%;
+  font-size: 4rem;
+  font-weight: 400;
+  padding: 5rem;
+  // background-color: yellowgreen; // Temp
 
-  &__img {
-    flex: 0 0 50%;
-    background-color: orangered; // Temp
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__btn {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 10rem;
+    text-decoration: none;
+    color: black;
   }
+}
+
+.right {
+  flex: 0 0 60%;
+  // background-color: orangered; // Temp
+
+  display: flex;
+  justify-content: center;
 }

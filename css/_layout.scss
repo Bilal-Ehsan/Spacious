@@ -5,9 +5,18 @@
   font-size: 3rem;
   height: 15vh;
   padding: 2.5rem 5.5rem;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.hero-main {
-  height: 85vh;
+.hero {
+  height: 75vh;
   display: flex;
+  background-color: #fffaff;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  background-color: #fffaff;
+  border-top: 1px solid #d3d3d3;
 }

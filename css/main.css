@@ -57,18 +57,43 @@ body {
   color: black;
 }
 
-.hero-main__content {
+.left {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-  background-color: yellowgreen;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  font-size: 4rem;
+  font-weight: 400;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.hero-main__img {
+.left__btn {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 10rem;
+  text-decoration: none;
+  color: black;
+}
+
+.right {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-  background-color: orangered;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header {
@@ -84,12 +109,23 @@ body {
   font-size: 3rem;
   height: 15vh;
   padding: 2.5rem 5.5rem;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.hero-main {
-  height: 85vh;
+.hero {
+  height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #fffaff;
+}
+
+.footer {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fffaff;
+  border-top: 1px solid #d3d3d3;
 }
 /*# sourceMappingURL=main.css.map */
