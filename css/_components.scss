@@ -32,7 +32,7 @@
   flex: 0 0 40%;
   font-size: 4rem;
   font-weight: 400;
-  padding: 5rem;
+  padding: 5rem 7.5rem;
   // background-color: yellowgreen; // Temp
 
   display: flex;
@@ -54,4 +54,10 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  &__img {
+    width: 71.25rem;
+    height: 48rem;    
+  }
 }
