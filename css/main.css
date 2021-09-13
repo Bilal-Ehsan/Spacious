@@ -52,27 +52,26 @@ body {
   list-style: none;
 }
 
-.nav__item {
+.nav__list__item {
   font-size: 2.25rem;
-  font-weight: 300;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
-  color: var(--color-text-primary);
+  font-weight: 400;
 }
 
-.nav__item:hover {
+.nav__list__item:hover {
   -webkit-transform: translateY(-0.25rem) scale(105%);
           transform: translateY(-0.25rem) scale(105%);
 }
 
-.nav a {
+.nav__list__item a {
   text-decoration: none;
-  color: black;
+  color: var(--color-text-primary);
 }
 
-.left {
+.hero__left {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
@@ -92,7 +91,7 @@ body {
           justify-content: center;
 }
 
-.left__btn {
+.hero__left__btn {
   font-size: 3rem;
   font-weight: 400;
   margin-top: 10rem;
@@ -103,11 +102,11 @@ body {
   transition: letter-spacing .2s;
 }
 
-.left__btn:hover {
+.hero__left__btn:hover {
   letter-spacing: .15rem;
 }
 
-.right {
+.hero__right {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
@@ -122,14 +121,14 @@ body {
           align-items: center;
 }
 
-.right__img {
+.hero__right__img {
   width: 71.25rem;
   height: 48rem;
   -webkit-animation: fadeIn 2s ease-in;
           animation: fadeIn 2s ease-in;
 }
 
-.footer__icon {
+.footer__icons__icon {
   margin: 0 1rem;
   cursor: pointer;
   -webkit-transition: -webkit-transform .3s;
@@ -138,7 +137,7 @@ body {
   transition: transform .3s, -webkit-transform .3s;
 }
 
-.footer__icon:hover {
+.footer__icons__icon:hover {
   -webkit-transform: translateY(-0.5rem) scale(115%);
           transform: translateY(-0.5rem) scale(115%);
 }

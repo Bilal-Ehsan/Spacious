@@ -16,66 +16,67 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-  }
 
-  &__item {
-    font-size: 2.25rem;
-    font-weight: 300;
-    transition: transform .2s;
-    color: var(--color-text-primary);
+    &__item {
+      font-size: 2.25rem;
+      transition: transform .2s;
+      font-weight: 400;
+  
+      &:hover {
+        transform: translateY(-.25rem) scale(105%);
+      }
 
-    &:hover {
-      transform: translateY(-.25rem) scale(105%);
+      & a {
+        text-decoration: none;
+        color: var(--color-text-primary);
+      }
     }
-  }
-
-  & a {
-    text-decoration: none;
-    color: black;
   }
 }
 
-.left {
-  flex: 0 0 40%;
-  font-size: 4.5rem;
-  font-weight: 400;
-  padding: 5rem 7.5rem;
-  color: var(--color-text-primary);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  &__btn {
-    font-size: 3rem;
+.hero {
+  &__left {
+    flex: 0 0 40%;
+    font-size: 4.5rem;
     font-weight: 400;
-    margin-top: 10rem;
-    text-decoration: none;
-    color: black;
-    margin-right: auto;
-    transition: letter-spacing .2s;
-
-    &:hover {
-      letter-spacing: .15rem;
+    padding: 5rem 7.5rem;
+    color: var(--color-text-primary);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    &__btn {
+      font-size: 3rem;
+      font-weight: 400;
+      margin-top: 10rem;
+      text-decoration: none;
+      color: black;
+      margin-right: auto;
+      transition: letter-spacing .2s;
+  
+      &:hover {
+        letter-spacing: .15rem;
+      }
+    }
+  }
+  
+  &__right {
+    flex: 0 0 60%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    &__img {
+      width: 71.25rem;
+      height: 48rem;
+      animation: fadeIn 2s ease-in;  
     }
   }
 }
 
-.right {
-  flex: 0 0 60%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &__img {
-    width: 71.25rem;
-    height: 48rem;
-    animation: fadeIn 2s ease-in;  
-  }
-}
-
-.footer__icon {
+.footer__icons__icon {
   margin: 0 1rem;
   cursor: pointer;
   transition: transform .3s;
