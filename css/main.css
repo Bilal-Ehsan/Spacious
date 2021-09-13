@@ -28,11 +28,7 @@ body {
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
   font-weight: 400;
-  background: -webkit-gradient(linear, left bottom, right top, from(#c2e59c), to(#64b3f4));
-  background: linear-gradient(to top right, #c2e59c, #64b3f4);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--color-text-primary);
   cursor: pointer;
 }
 
@@ -53,12 +49,12 @@ body {
 }
 
 .nav__list__item {
-  font-size: 2.25rem;
+  font-size: 2.35rem;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .nav__list__item:hover {
@@ -78,7 +74,7 @@ body {
   font-size: 4.5rem;
   font-weight: 400;
   padding: 5rem 7.5rem;
-  color: var(--color-text-primary);
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,7 +92,7 @@ body {
   font-weight: 400;
   margin-top: 10rem;
   text-decoration: none;
-  color: black;
+  color: var(--color-text-primary);
   margin-right: auto;
   -webkit-transition: letter-spacing .2s;
   transition: letter-spacing .2s;
@@ -171,7 +167,7 @@ body {
   font-size: 3rem;
   height: 15vh;
   padding: 2.5rem 5.5rem;
-  border-bottom: 1px solid var(--color-text-primary);
+  border-bottom: 1px solid lightgray;
   background-color: #fffaff;
 }
 

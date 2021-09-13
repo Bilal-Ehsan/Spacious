@@ -2,10 +2,11 @@
   font-size: 4rem;
   flex: 0 0 40%;
   font-weight: 400;
-  background: linear-gradient(to top right, #c2e59c, #64b3f4);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--color-text-primary);
+  // background: linear-gradient(to top right, #c2e59c, #64b3f4);
+  // -webkit-background-clip: text;
+  // background-clip: text;
+  // -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
 
@@ -18,9 +19,9 @@
     list-style: none;
 
     &__item {
-      font-size: 2.25rem;
+      font-size: 2.35rem;
       transition: transform .2s;
-      font-weight: 400;
+      font-weight: 300;
   
       &:hover {
         transform: translateY(-.25rem) scale(105%);
@@ -40,7 +41,7 @@
     font-size: 4.5rem;
     font-weight: 400;
     padding: 5rem 7.5rem;
-    color: var(--color-text-primary);
+    color: black;
   
     display: flex;
     flex-direction: column;
@@ -51,7 +52,7 @@
       font-weight: 400;
       margin-top: 10rem;
       text-decoration: none;
-      color: black;
+      color: var(--color-text-primary);
       margin-right: auto;
       transition: letter-spacing .2s;
   
