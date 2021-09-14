@@ -28,7 +28,11 @@ body {
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
   font-weight: 400;
-  color: var(--color-text-primary);
+  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
 
@@ -73,7 +77,7 @@ body {
           flex: 0 0 40%;
   font-size: 4.5rem;
   font-weight: 400;
-  padding: 5rem 7.5rem;
+  padding: 0rem 3rem 0rem 8rem;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,6 +110,7 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
+  padding: 0rem 6rem 0rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,8 +172,6 @@ body {
   font-size: 3rem;
   height: 15vh;
   padding: 2.5rem 5.5rem;
-  border-bottom: 1px solid lightgray;
-  background-color: #fffaff;
 }
 
 .hero {
