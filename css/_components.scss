@@ -28,7 +28,7 @@
 
       & a {
         text-decoration: none;
-        color: var(--color-text-primary);
+        color: #333366;
       }
     }
   }
@@ -40,8 +40,7 @@
     font-size: 4.5rem;
     font-weight: 400;
     padding: 0rem 3rem 0rem 8rem;
-    color: black;
-    // background-color: palegreen;
+    color: #000;
   
     display: flex;
     flex-direction: column;
@@ -52,9 +51,15 @@
       font-weight: 400;
       margin-top: 10rem;
       text-decoration: none;
-      color: var(--color-text-primary);
+      color: #fff;
       margin-right: auto;
       transition: letter-spacing .2s;
+      border-radius: 3.5rem;
+      border: 2px solid #fff;
+      padding: 1.5rem 2.5rem;
+      cursor: pointer;
+      background: linear-gradient(to right, #12c2e9, #c471ed);
+      box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.363);
   
       &:hover {
         letter-spacing: .15rem;
@@ -69,7 +74,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: palegoldenrod;
   
     &__img {
       width: 71.25rem;

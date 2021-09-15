@@ -1,7 +1,3 @@
-:root {
-  --color-text-primary: #333366;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -68,7 +64,7 @@ body {
 
 .nav__list__item a {
   text-decoration: none;
-  color: var(--color-text-primary);
+  color: #333366;
 }
 
 .hero__left {
@@ -78,7 +74,7 @@ body {
   font-size: 4.5rem;
   font-weight: 400;
   padding: 0rem 3rem 0rem 8rem;
-  color: black;
+  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,10 +92,18 @@ body {
   font-weight: 400;
   margin-top: 10rem;
   text-decoration: none;
-  color: var(--color-text-primary);
+  color: #fff;
   margin-right: auto;
   -webkit-transition: letter-spacing .2s;
   transition: letter-spacing .2s;
+  border-radius: 3.5rem;
+  border: 2px solid #fff;
+  padding: 1.5rem 2.5rem;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), to(#c471ed));
+  background: linear-gradient(to right, #12c2e9, #c471ed);
+  -webkit-box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.363);
+          box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.363);
 }
 
 .hero__left__btn:hover {
