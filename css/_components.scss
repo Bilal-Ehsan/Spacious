@@ -16,19 +16,30 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+  }
 
-    &__item {
-      font-size: 2.35rem;
-      transition: transform .2s;
-      font-weight: 300;
-  
-      &:hover {
-        transform: translateY(-.25rem) scale(105%);
-      }
+  &__list-item {
+    font-size: 2.35rem;
+    transition: transform .2s;
+    font-weight: 300;
 
-      & a {
-        text-decoration: none;
-        color: #333366;
+    & a {
+      text-decoration: none;
+      color: #333366;
+    }
+
+    &:hover {
+      transform: translateY(-.25rem) scale(105%);
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid #333366;
+        width: 100%;
+        height: 100%;
       }
     }
   }
@@ -45,27 +56,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
   
-    &__btn {
-      font-size: 3rem;
-      font-weight: 400;
-      margin-top: 10rem;
-      text-decoration: none;
-      color: #fff;
-      margin-right: auto;
-      transition: letter-spacing .2s;
-      border-radius: 3.5rem;
-      border: 2px solid #fff;
-      padding: 1.5rem 2.5rem;
-      cursor: pointer;
-      background: linear-gradient(to right, #12c2e9, #c471ed);
-      box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.363);
-      transition: transform .2s;
-  
-      &:hover {
-        transform: translateY(-.3rem);
-        box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.322);
-      }
+  &__left-btn {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 10rem;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+    transition: letter-spacing .2s;
+    border-radius: 3.5rem;
+    border: 2px solid #fff;
+    padding: 1.5rem 2.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #12c2e9, #c471ed);
+    box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.363);
+    transition: transform .2s;
+
+    &:hover {
+      transform: translateY(-.3rem);
+      box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.322);
     }
   }
   
@@ -76,16 +87,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
   
-    &__img {
-      width: 71.25rem;
-      height: 48rem;
-      animation: fadeIn 2s ease-in;  
-    }
+  &__right-img {
+    width: 71.25rem;
+    height: 48rem;
+    animation: fadeIn 2s ease-in;  
   }
 }
 
-.footer__icons__icon {
+.footer__icons-icon {
   margin: 0 1rem;
   cursor: pointer;
   transition: transform .3s;
