@@ -32,6 +32,12 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .header__title {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .nav {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
@@ -98,6 +104,35 @@ body {
           justify-content: center;
 }
 
+@media only screen and (max-width: 75em) {
+  .hero__left {
+    font-size: 3.75rem;
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .hero__left {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .hero__left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    font-size: 5.25rem;
+    padding: 0rem 5rem;
+  }
+}
+
 .hero__left-btn {
   font-size: 3rem;
   font-weight: 400;
@@ -119,6 +154,14 @@ body {
   transition: -webkit-transform .2s;
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .hero__left-btn {
+    font-size: 2.5rem;
+    margin: 5rem 0 0 0;
+    font-size: 3.5rem;
+  }
 }
 
 .hero__left-btn:hover {
@@ -144,11 +187,19 @@ body {
           align-items: center;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .hero__right {
+    display: none;
+  }
+}
+
 .hero__right-img {
   width: 71.25rem;
   height: 48rem;
   -webkit-animation: fadeIn 2s ease-in;
           animation: fadeIn 2s ease-in;
+  max-width: 100%;
+  height: auto;
 }
 
 .footer__icons-icon {
@@ -194,6 +245,17 @@ body {
   font-size: 3rem;
   height: 15vh;
   padding: 2.5rem 5.5rem;
+  background-color: lightcoral;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 20vh;
+  }
 }
 
 .hero {
@@ -201,6 +263,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .hero {
+    height: 65vh;
+  }
 }
 
 .footer {
@@ -214,5 +283,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: lightsalmon;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .footer {
+    height: 15vh;
+  }
 }
 /*# sourceMappingURL=main.css.map */
