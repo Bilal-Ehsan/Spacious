@@ -38,6 +38,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .header__title {
+    margin-top: 4rem;
+  }
+}
+
 .nav {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
@@ -52,6 +58,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .nav__list {
+    display: none;
+  }
 }
 
 .nav__list-item {
@@ -77,11 +89,29 @@ body {
 .nav__list-item:hover::after {
   content: "";
   position: absolute;
-  top: 0;
   left: 0;
+  top: -10;
   border-bottom: 1px solid #333366;
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .nav__list-item {
+    margin: 1rem 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .nav__list-item {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 22em) {
+  .nav__list-item {
+    font-size: 2.15rem;
+  }
 }
 
 .hero__left {
@@ -133,6 +163,37 @@ body {
   }
 }
 
+@media only screen and (max-width: 43.75em) {
+  .hero__left {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hero__left {
+    font-size: 4rem;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .hero__left {
+    font-size: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 26em) {
+  .hero__left {
+    font-size: 2.75rem;
+  }
+}
+
+@media only screen and (max-width: 22em) {
+  .hero__left {
+    font-size: 2.35rem;
+  }
+}
+
 .hero__left-btn {
   font-size: 3rem;
   font-weight: 400;
@@ -158,9 +219,38 @@ body {
 
 @media only screen and (max-width: 56.25em) {
   .hero__left-btn {
-    font-size: 2.5rem;
     margin: 5rem 0 0 0;
     font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
+  .hero__left-btn {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hero__left-btn {
+    font-size: 2.75rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .hero__left-btn {
+    font-size: 2.45rem;
+  }
+}
+
+@media only screen and (max-width: 26em) {
+  .hero__left-btn {
+    font-size: 2.15rem;
+  }
+}
+
+@media only screen and (max-width: 22em) {
+  .hero__left-btn {
+    font-size: 2rem;
   }
 }
 
@@ -245,7 +335,6 @@ body {
   font-size: 3rem;
   height: 15vh;
   padding: 2.5rem 5.5rem;
-  background-color: lightcoral;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -258,17 +347,30 @@ body {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .header {
+    height: 15vh;
+    padding: 2rem 0;
+  }
+}
+
 .hero {
   height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: lightgreen;
 }
 
 @media only screen and (max-width: 56.25em) {
   .hero {
-    height: 65vh;
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .hero {
+    height: 75vh;
+    padding: 8.25rem 0;
   }
 }
 
@@ -283,12 +385,17 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: lightsalmon;
 }
 
 @media only screen and (max-width: 56.25em) {
   .footer {
-    height: 15vh;
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .footer {
+    padding: 2rem 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
