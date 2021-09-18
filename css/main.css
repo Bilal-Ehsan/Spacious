@@ -364,13 +364,13 @@ body {
 @media only screen and (max-width: 56.25em) {
   .hero {
     height: 70vh;
+    padding: 6.25rem 0 8.25rem 0;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
   .hero {
     height: 75vh;
-    padding: 8.25rem 0;
   }
 }
 

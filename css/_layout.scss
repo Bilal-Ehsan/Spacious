@@ -27,11 +27,11 @@
 
   @media only screen and (max-width: $media-query-900) {
     height: 70vh;
+    padding: 6.25rem 0 8.25rem 0;
   }
 
   @media only screen and (max-width: $media-query-600) {
     height: 75vh;
-    padding: 8.25rem 0;
   }
 }
 
