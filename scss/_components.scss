@@ -40,7 +40,7 @@
       color: #333366;
     }
 
-    @media (hover: hover) {
+    @media (hover: none) {
       &:hover {
         transform: translateY(-.25rem) scale(105%);
         cursor: pointer;
@@ -163,7 +163,7 @@
       font-size: 2rem;
     }
 
-    @media (hover: hover) {
+    @media (hover: none) {
       &:hover {
         transform: translateY(-.3rem);
         box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.322);
@@ -198,7 +198,7 @@
   cursor: pointer;
   transition: transform .3s;
 
-  @media (hover: hover) {
+  @media (hover: none) {
     &:hover {
       transform: translateY(-.5rem) scale(115%);
     }
