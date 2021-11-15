@@ -198,7 +198,7 @@
   cursor: pointer;
   transition: transform .3s;
 
-  @media (hover: hover and (pointer: fine) {
+  @media (hover: hover) and (pointer: fine) {
     &:hover {
       transform: translateY(-.5rem) scale(115%);
     }
