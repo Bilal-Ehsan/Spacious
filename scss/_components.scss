@@ -76,7 +76,7 @@
     flex: 0 0 40%;
     font-size: 4.5rem;
     font-weight: 400;
-    padding: 0rem 3rem 0rem 8rem;
+    padding: 0 3rem 0 8rem;
     color: #000;
   
     display: flex;
@@ -97,7 +97,7 @@
       align-items: center;
       padding: 0;
       font-size: 5.25rem;
-      padding: 0rem 5rem;
+      padding: 0 5rem;
     }
 
     @media only screen and (max-width: $media-query-700) {
@@ -173,7 +173,7 @@
   
   &__right {
     flex: 0 0 60%;
-    padding: 0rem 6rem 0rem 3rem;
+    padding: 0 6rem 0 3rem;
     
     display: flex;
     justify-content: center;
