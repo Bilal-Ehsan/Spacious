@@ -12,7 +12,9 @@ $media-query-350: 22em;
   padding: 0;
 }
 
-*, *::after, *::before {
+*, 
+*::after,
+*::before {
   box-sizing: inherit;
 }
 
