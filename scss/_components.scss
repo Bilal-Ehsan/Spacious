@@ -121,7 +121,7 @@
     }
   }
   
-  &__left-btn {
+  &__button {
     font-size: 3rem;
     font-weight: 400;
     margin-top: 10rem;
@@ -183,7 +183,7 @@
     }
   }
   
-  &__right-img {
+  &__image {
     width: 71.25rem;
     height: 48rem;
     animation: fadeIn 2s ease-in;  
@@ -192,7 +192,7 @@
   }
 }
 
-.footer__icons-icon {
+.footer__icon {
   margin: 0 1rem;
   cursor: pointer;
   transition: transform .3s;

@@ -196,7 +196,7 @@ body {
   }
 }
 
-.hero__left-btn {
+.hero__button {
   font-size: 3rem;
   font-weight: 400;
   margin-top: 10rem;
@@ -220,44 +220,44 @@ body {
 }
 
 @media only screen and (max-width: 56.25em) {
-  .hero__left-btn {
+  .hero__button {
     margin: 5rem 0 0 0;
     font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 43.75em) {
-  .hero__left-btn {
+  .hero__button {
     font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  .hero__left-btn {
+  .hero__button {
     font-size: 2.75rem;
   }
 }
 
 @media only screen and (max-width: 31.25em) {
-  .hero__left-btn {
+  .hero__button {
     font-size: 2.45rem;
   }
 }
 
 @media only screen and (max-width: 26em) {
-  .hero__left-btn {
+  .hero__button {
     font-size: 2.15rem;
   }
 }
 
 @media only screen and (max-width: 22em) {
-  .hero__left-btn {
+  .hero__button {
     font-size: 2rem;
   }
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .hero__left-btn:hover {
+  .hero__button:hover {
     -webkit-transform: translateY(-0.3rem);
             transform: translateY(-0.3rem);
     -webkit-box-shadow: 1.5rem 2rem 3.5rem rgba(0, 0, 0, 0.322);
@@ -287,7 +287,7 @@ body {
   }
 }
 
-.hero__right-img {
+.hero__image {
   width: 71.25rem;
   height: 48rem;
   -webkit-animation: fadeIn 2s ease-in;
@@ -296,7 +296,7 @@ body {
   height: auto;
 }
 
-.footer__icons-icon {
+.footer__icon {
   margin: 0 1rem;
   cursor: pointer;
   -webkit-transition: -webkit-transform .3s;
@@ -306,7 +306,7 @@ body {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .footer__icons-icon:hover {
+  .footer__icon:hover {
     -webkit-transform: translateY(-0.5rem) scale(115%);
             transform: translateY(-0.5rem) scale(115%);
   }
