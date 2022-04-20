@@ -67,7 +67,7 @@ body {
   }
 }
 
-.nav__list-item {
+.nav__item {
   font-size: 2.35rem;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
@@ -76,18 +76,18 @@ body {
   font-weight: 300;
 }
 
-.nav__list-item a {
+.nav__item a {
   text-decoration: none;
   color: #333366;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .nav__list-item:hover {
+  .nav__item:hover {
     -webkit-transform: translateY(-0.25rem) scale(105%);
             transform: translateY(-0.25rem) scale(105%);
     cursor: pointer;
   }
-  .nav__list-item:hover::after {
+  .nav__item:hover::after {
     content: "";
     position: absolute;
     left: 0;
@@ -99,19 +99,19 @@ body {
 }
 
 @media only screen and (max-width: 56.25em) {
-  .nav__list-item {
+  .nav__item {
     margin: 1rem 2.5rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  .nav__list-item {
+  .nav__item {
     margin-bottom: 1rem;
   }
 }
 
 @media only screen and (max-width: 22em) {
-  .nav__list-item {
+  .nav__item {
     font-size: 2.15rem;
   }
 }
